@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "attribution": "ModelFit: https://modelfit.io/",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+  "upstreamUpdated": "2026-09-18",
+  "source": "https://github.com/Wecko-ai/modelfit/blob/main/src/data/models.json",
+  "verifiedAgainst": "https://modelfit.io/api/dataset/",
+  "counts": {
+    "models": 143,
+    "local": 106,
+    "cloud": 37,
+    "families": 24
+  },
+  "syncedAt": "2026-09-27T02:00:00.000Z"
+}

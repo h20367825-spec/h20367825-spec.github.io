@@ -1,0 +1,3620 @@
+[
+  {
+    "id": "qwen2.5-1.5b-q4",
+    "name": "Qwen2.5 1.5B Instruct",
+    "family": "Qwen",
+    "sizeB": 1.5,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 1.5,
+    "bestFor": "Chat, Translation",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "translation"
+    ],
+    "speedScore": 95,
+    "qualityScore": 55,
+    "ollamaCommand": "ollama run qwen2.5:1.5b-instruct-q4_K_M",
+    "notes": "Very light general assistant for constrained devices.",
+    "popularityScore": 58,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-3b-q4",
+    "name": "Qwen2.5 3B Instruct",
+    "family": "Qwen",
+    "sizeB": 3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 2.5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "translation"
+    ],
+    "speedScore": 90,
+    "qualityScore": 62,
+    "ollamaCommand": "ollama run qwen2.5:3b-instruct-q4_K_M",
+    "notes": "Strong small model with better reasoning than 1.5B.",
+    "popularityScore": 64,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-7b-q4",
+    "name": "Qwen2.5 7B Instruct",
+    "family": "Qwen",
+    "sizeB": 7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 80,
+    "qualityScore": 74,
+    "ollamaCommand": "ollama run qwen2.5:7b-instruct-q4_K_M",
+    "notes": "Balanced option for everyday coding and chat.",
+    "popularityScore": 72,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-14b-q4",
+    "name": "Qwen2.5 14B Instruct",
+    "family": "Qwen",
+    "sizeB": 14,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 11,
+    "bestFor": "Coding, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat",
+      "mixed"
+    ],
+    "speedScore": 60,
+    "qualityScore": 82,
+    "ollamaCommand": "ollama run qwen2.5:14b-instruct-q4_K_M",
+    "notes": "High quality if RAM allows.",
+    "popularityScore": 68,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.2-3b-q4",
+    "name": "Llama 3.2 3B Instruct",
+    "family": "Llama",
+    "sizeB": 3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 2.5,
+    "bestFor": "Chat",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "mixed"
+    ],
+    "speedScore": 89,
+    "qualityScore": 66,
+    "ollamaCommand": "ollama run llama3.2:3b-instruct-q4_K_M",
+    "notes": "Fast assistant with broad ecosystem support.",
+    "popularityScore": 72,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.1-8b-q4",
+    "name": "Llama 3.1 8B Instruct",
+    "family": "Llama",
+    "sizeB": 8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 6.5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 78,
+    "qualityScore": 76,
+    "ollamaCommand": "ollama run llama3.1:8b-instruct-q4_K_M",
+    "notes": "Reliable default for local assistants.",
+    "popularityScore": 78,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.1-8b-q8",
+    "name": "Llama 3.1 8B Instruct (Q8)",
+    "family": "Llama",
+    "sizeB": 8,
+    "quantization": "Q8_0",
+    "minRamGb": 16,
+    "estimatedLoadGb": 8,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 70,
+    "qualityScore": 78,
+    "popularityScore": 78,
+    "ollamaCommand": "ollama run llama3.1:8b-instruct-q8_0",
+    "notes": "Q8_0 variant of Llama 3.1 8B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Meta-Llama-3.1-8B-Instruct-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.1-8b-q5",
+    "name": "Llama 3.1 8B Instruct (Q5)",
+    "family": "Llama",
+    "sizeB": 8,
+    "quantization": "Q5_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 8,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding"
+    ],
+    "speedScore": 72,
+    "qualityScore": 78,
+    "ollamaCommand": "ollama run llama3.1:8b-instruct-q5_K_M",
+    "notes": "Higher fidelity at modest speed cost.",
+    "popularityScore": 68,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.1-70b-q4",
+    "name": "Llama 3.1 70B Instruct",
+    "family": "Llama",
+    "sizeB": 70,
+    "quantization": "Q4_K_M",
+    "minRamGb": 64,
+    "estimatedLoadGb": 42,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "mixed",
+      "coding"
+    ],
+    "speedScore": 25,
+    "qualityScore": 84,
+    "ollamaCommand": "ollama run llama3.1:70b-instruct-q4_K_M",
+    "notes": "Top quality but very hardware heavy.",
+    "popularityScore": 62,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct"
+    ]
+  },
+  {
+    "id": "mistral-7b-q4",
+    "name": "Mistral 7B Instruct",
+    "family": "Mistral",
+    "sizeB": 7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "translation"
+    ],
+    "speedScore": 81,
+    "qualityScore": 70,
+    "ollamaCommand": "ollama run mistral:7b-instruct-q4_K_M",
+    "notes": "Good all-around quality in a mid-size footprint.",
+    "popularityScore": 74,
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"
+    ]
+  },
+  {
+    "id": "mistral-7b-q5",
+    "name": "Mistral 7B Instruct (Q5)",
+    "family": "Mistral",
+    "sizeB": 7,
+    "quantization": "Q5_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 4.8,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "translation"
+    ],
+    "speedScore": 77,
+    "qualityScore": 71,
+    "popularityScore": 74,
+    "ollamaCommand": "ollama run mistral:7b-instruct-q5_K_M",
+    "notes": "Q5_K_M variant of Mistral 7B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Mistral-7B-Instruct-v0.3-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"
+    ]
+  },
+  {
+    "id": "mistral-7b-q8",
+    "name": "Mistral 7B Instruct (Q8)",
+    "family": "Mistral",
+    "sizeB": 7,
+    "quantization": "Q8_0",
+    "minRamGb": 16,
+    "estimatedLoadGb": 7.2,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "translation"
+    ],
+    "speedScore": 73,
+    "qualityScore": 72,
+    "popularityScore": 74,
+    "ollamaCommand": "ollama run mistral:7b-instruct-q8_0",
+    "notes": "Q8_0 variant of Mistral 7B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Mistral-7B-Instruct-v0.3-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"
+    ]
+  },
+  {
+    "id": "mixtral-8x7b-q4",
+    "name": "Mixtral 8x7B Instruct",
+    "family": "Mistral",
+    "sizeB": 46.7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 48,
+    "estimatedLoadGb": 30,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "mixed",
+      "moe"
+    ],
+    "speedScore": 48,
+    "qualityScore": 76,
+    "ollamaCommand": "ollama run mixtral:8x7b",
+    "notes": "MoE quality boost with large memory demand.",
+    "popularityScore": 72,
+    "moeActiveB": 13,
+    "sources": [
+      "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1"
+    ]
+  },
+  {
+    "id": "mistral-nemo-12b-q4",
+    "name": "Mistral Nemo 12B",
+    "family": "Mistral",
+    "sizeB": 12,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 9.5,
+    "bestFor": "Chat, Translation",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "translation"
+    ],
+    "speedScore": 64,
+    "qualityScore": 82,
+    "ollamaCommand": "ollama run mistral-nemo:12b",
+    "notes": "Strong multilingual quality at moderate size.",
+    "popularityScore": 78,
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    ]
+  },
+  {
+    "id": "mistral-nemo-12b-q8",
+    "name": "Mistral Nemo 12B (Q8)",
+    "family": "Mistral",
+    "sizeB": 12,
+    "quantization": "Q8_0",
+    "minRamGb": 24,
+    "estimatedLoadGb": 12.1,
+    "bestFor": "Chat, Translation",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "translation"
+    ],
+    "speedScore": 56,
+    "qualityScore": 84,
+    "popularityScore": 78,
+    "ollamaCommand": "ollama run mistral-nemo:12b-instruct-2407-q8_0",
+    "notes": "Q8_0 variant of Mistral Nemo 12B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Mistral-Nemo-Instruct-2407-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    ]
+  },
+  {
+    "id": "gemma2-2b-q4",
+    "name": "Gemma 2 2B Instruct",
+    "family": "Gemma",
+    "sizeB": 2,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 1.8,
+    "bestFor": "Chat",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "translation"
+    ],
+    "speedScore": 93,
+    "qualityScore": 58,
+    "ollamaCommand": "ollama run gemma2:2b-instruct-q4_K_M",
+    "notes": "Small and very responsive for simple tasks.",
+    "popularityScore": 62,
+    "sources": [
+      "https://huggingface.co/google/gemma-2-2b-it"
+    ]
+  },
+  {
+    "id": "gemma2-9b-q4",
+    "name": "Gemma 2 9B Instruct",
+    "family": "Gemma",
+    "sizeB": 9,
+    "quantization": "Q4_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 7,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 73,
+    "qualityScore": 76,
+    "ollamaCommand": "ollama run gemma2:9b-instruct-q4_K_M",
+    "notes": "High quality on mid-to-high RAM machines.",
+    "popularityScore": 68,
+    "sources": [
+      "https://huggingface.co/google/gemma-2-9b-it"
+    ]
+  },
+  {
+    "id": "gemma2-27b-q4",
+    "name": "Gemma 2 27B Instruct",
+    "family": "Gemma",
+    "sizeB": 27,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 21,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 48,
+    "qualityScore": 80,
+    "ollamaCommand": "ollama run gemma2:27b-instruct-q4_K_M",
+    "notes": "Excellent output quality with high memory cost.",
+    "popularityScore": 58,
+    "sources": [
+      "https://huggingface.co/google/gemma-2-27b-it"
+    ]
+  },
+  {
+    "id": "phi3-mini-q4",
+    "name": "Phi-3 Mini 3.8B",
+    "family": "Phi",
+    "sizeB": 3.8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 6,
+    "estimatedLoadGb": 3.2,
+    "bestFor": "Coding, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat"
+    ],
+    "speedScore": 88,
+    "qualityScore": 65,
+    "ollamaCommand": "ollama run phi3:mini",
+    "notes": "Fast and surprisingly capable coding assistant.",
+    "popularityScore": 64,
+    "sources": [
+      "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+    ]
+  },
+  {
+    "id": "phi3-medium-q4",
+    "name": "Phi-3 Medium 14B",
+    "family": "Phi",
+    "sizeB": 14,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 11,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat",
+      "quality"
+    ],
+    "speedScore": 58,
+    "qualityScore": 75,
+    "ollamaCommand": "ollama run phi3:medium",
+    "notes": "Very strong coding quality on capable systems.",
+    "popularityScore": 58,
+    "sources": [
+      "https://huggingface.co/microsoft/Phi-3-medium-4k-instruct"
+    ]
+  },
+  {
+    "id": "phi4-14b-q4",
+    "name": "Phi-4 14B",
+    "family": "Phi",
+    "sizeB": 14,
+    "quantization": "Q4_K_M",
+    "minRamGb": 24,
+    "estimatedLoadGb": 11.5,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "chat"
+    ],
+    "speedScore": 55,
+    "qualityScore": 87,
+    "ollamaCommand": "ollama run phi4:14b-q4_K_M",
+    "notes": "High reasoning quality with slower throughput.",
+    "popularityScore": 64,
+    "sources": [
+      "https://huggingface.co/microsoft/phi-4"
+    ]
+  },
+  {
+    "id": "phi4-14b-q8",
+    "name": "Phi-4 14B (Q8)",
+    "family": "Phi",
+    "sizeB": 14,
+    "quantization": "Q8_0",
+    "minRamGb": 24,
+    "estimatedLoadGb": 14.5,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "chat"
+    ],
+    "speedScore": 47,
+    "qualityScore": 89,
+    "popularityScore": 64,
+    "ollamaCommand": "ollama run phi4:14b-q8_0",
+    "notes": "Q8_0 variant of Phi-4 14B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Phi-4-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/microsoft/phi-4"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-7b-q4",
+    "name": "Qwen2.5 Coder 7B",
+    "family": "Qwen",
+    "sizeB": 7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.5,
+    "bestFor": "Coding",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat"
+    ],
+    "speedScore": 79,
+    "qualityScore": 78,
+    "ollamaCommand": "ollama run qwen2.5-coder:7b",
+    "notes": "Code-focused balance of speed and quality.",
+    "popularityScore": 72,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-14b-q4",
+    "name": "Qwen2.5 Coder 14B",
+    "family": "Qwen",
+    "sizeB": 14,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 11,
+    "bestFor": "Coding",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality"
+    ],
+    "speedScore": 57,
+    "qualityScore": 85,
+    "ollamaCommand": "ollama run qwen2.5-coder:14b",
+    "notes": "Great code generation for higher-memory machines.",
+    "popularityScore": 68,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.2-1b-q4",
+    "name": "Llama 3.2 1B Instruct",
+    "family": "Llama",
+    "sizeB": 1,
+    "quantization": "Q4_K_M",
+    "minRamGb": 2,
+    "estimatedLoadGb": 1,
+    "bestFor": "Chat",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "translation"
+    ],
+    "speedScore": 97,
+    "qualityScore": 48,
+    "ollamaCommand": "ollama run llama3.2:1b-instruct-q4_K_M",
+    "notes": "Ultra-fast baseline model for lightweight tasks.",
+    "popularityScore": 60,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct"
+    ]
+  },
+  {
+    "id": "mistral-small-22b-q4",
+    "name": "Mistral Small 22B",
+    "family": "Mistral",
+    "sizeB": 22,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 17,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "mixed"
+    ],
+    "speedScore": 50,
+    "qualityScore": 84,
+    "ollamaCommand": "ollama run mistral-small:22b",
+    "notes": "Strong quality for advanced local use.",
+    "popularityScore": 61,
+    "sources": [
+      "https://huggingface.co/mistralai"
+    ]
+  },
+  {
+    "id": "kimi-k2-instruct-cloud",
+    "name": "Kimi K2 Instruct",
+    "family": "Kimi",
+    "sizeB": 1000,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "chat"
+    ],
+    "speedScore": 68,
+    "qualityScore": 97,
+    "notes": "1T parameter MoE model (32B active). Cloud/API only, requires ~560GB RAM at Q4, not feasible locally even on Mac Studio M3 Ultra 512GB.",
+    "popularityScore": 72,
+    "moeActiveB": 32,
+    "sources": [
+      "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+    ]
+  },
+  {
+    "id": "claude-3.5-sonnet-cloud",
+    "name": "Claude 3.5 Sonnet",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat",
+      "quality"
+    ],
+    "speedScore": 72,
+    "qualityScore": 96,
+    "notes": "Cloud/API only model family, not runnable locally via Ollama. Parameter count undisclosed (cloud API).",
+    "popularityScore": 90,
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "claude-3.7-sonnet-cloud",
+    "name": "Claude 3.7 Sonnet",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "chat"
+    ],
+    "speedScore": 70,
+    "qualityScore": 98,
+    "notes": "Cloud/API only model family, not runnable locally via Ollama. Parameter count undisclosed (cloud API).",
+    "popularityScore": 94,
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "claude-opus-3-cloud",
+    "name": "Claude 3 Opus",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Analysis",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 55,
+    "qualityScore": 99,
+    "notes": "Cloud/API only Opus family model; not runnable locally via Ollama. Parameter count undisclosed (cloud API).",
+    "popularityScore": 83,
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "claude-opus-4-cloud",
+    "name": "Claude 4 Opus",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "analysis"
+    ],
+    "speedScore": 53,
+    "qualityScore": 100,
+    "notes": "Cloud/API only Opus family model; not runnable locally via Ollama. Parameter count undisclosed (cloud API).",
+    "popularityScore": 88,
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "qwen2.5-0.5b-q4",
+    "name": "Qwen2.5 0.5B Instruct",
+    "family": "Qwen",
+    "sizeB": 0.5,
+    "quantization": "Q4_K_M",
+    "minRamGb": 2,
+    "estimatedLoadGb": 0.8,
+    "bestFor": "Chat, Mobile",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "mobile",
+      "translation"
+    ],
+    "speedScore": 98,
+    "qualityScore": 42,
+    "ollamaCommand": "ollama run qwen2.5:0.5b-instruct-q4_K_M",
+    "notes": "Ultra-lightweight model used in Keiro, ideal for mobile devices.",
+    "popularityScore": 62,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct"
+    ]
+  },
+  {
+    "id": "gemma-3-1b-q4",
+    "name": "Gemma 3 1B Instruct",
+    "family": "Gemma",
+    "sizeB": 1,
+    "quantization": "Q4_K_M",
+    "minRamGb": 2,
+    "estimatedLoadGb": 1,
+    "bestFor": "Chat, Mobile",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "translation",
+      "mobile"
+    ],
+    "speedScore": 97,
+    "qualityScore": 52,
+    "ollamaCommand": "ollama run gemma3:1b",
+    "notes": "Latest Gemma generation with improved efficiency for mobile use.",
+    "popularityScore": 78,
+    "sources": [
+      "https://huggingface.co/google/gemma-3-1b-it"
+    ]
+  },
+  {
+    "id": "gemma-3-1b-q8",
+    "name": "Gemma 3 1B Instruct (Q8)",
+    "family": "Gemma",
+    "sizeB": 1,
+    "quantization": "Q8_0",
+    "minRamGb": 4,
+    "estimatedLoadGb": 1,
+    "bestFor": "Chat, Mobile",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "translation",
+      "mobile"
+    ],
+    "speedScore": 89,
+    "qualityScore": 54,
+    "popularityScore": 78,
+    "ollamaCommand": "ollama run gemma3:1b-it-q8_0",
+    "notes": "Q8_0 variant of Gemma 3 1B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the unsloth/gemma-3-1b-it-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/google/gemma-3-1b-it"
+    ]
+  },
+  {
+    "id": "phi4-mini-3.8b-q4",
+    "name": "Phi-4 Mini 3.8B",
+    "family": "Phi",
+    "sizeB": 3.8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 6,
+    "estimatedLoadGb": 3.2,
+    "bestFor": "Coding, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat"
+    ],
+    "speedScore": 88,
+    "qualityScore": 73,
+    "ollamaCommand": "ollama run phi4-mini:3.8b",
+    "notes": "Latest Phi-4 mini variant with enhanced reasoning capabilities.",
+    "popularityScore": 75,
+    "sources": [
+      "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    ]
+  },
+  {
+    "id": "phi4-mini-3.8b-q8",
+    "name": "Phi-4 Mini 3.8B (Q8)",
+    "family": "Phi",
+    "sizeB": 3.8,
+    "quantization": "Q8_0",
+    "minRamGb": 8,
+    "estimatedLoadGb": 3.8,
+    "bestFor": "Coding, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "chat"
+    ],
+    "speedScore": 80,
+    "qualityScore": 75,
+    "popularityScore": 75,
+    "ollamaCommand": "ollama run phi4-mini:3.8b-q8_0",
+    "notes": "Q8_0 variant of Phi-4 Mini 3.8B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the unsloth/Phi-4-mini-instruct-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    ]
+  },
+  {
+    "id": "smollm2-360m-q4",
+    "name": "SmolLM2 360M",
+    "family": "SmolLM",
+    "sizeB": 0.36,
+    "quantization": "Q4_K_M",
+    "minRamGb": 1,
+    "estimatedLoadGb": 0.5,
+    "bestFor": "Chat, Embedded",
+    "publisherTier": "community",
+    "tags": [
+      "chat",
+      "mobile"
+    ],
+    "speedScore": 99,
+    "qualityScore": 38,
+    "ollamaCommand": "ollama run smollm2:360m",
+    "notes": "Extremely lightweight model for embedded devices and IoT.",
+    "popularityScore": 65,
+    "sources": [
+      "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.3-70b-q4",
+    "name": "Llama 3.3 70B Instruct",
+    "family": "Llama",
+    "sizeB": 70,
+    "quantization": "Q4_K_M",
+    "minRamGb": 64,
+    "estimatedLoadGb": 42,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "mixed",
+      "coding"
+    ],
+    "speedScore": 26,
+    "qualityScore": 86,
+    "ollamaCommand": "ollama run llama3.3:70b-instruct-q4_K_M",
+    "notes": "Latest Llama 3.3 with improved reasoning and coding capabilities.",
+    "popularityScore": 82,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+    ]
+  },
+  {
+    "id": "llama-3.1-405b-q4",
+    "name": "Llama 3.1 405B Instruct",
+    "family": "Llama",
+    "sizeB": 405,
+    "quantization": "Q4_K_M",
+    "cloud_only": false,
+    "minRamGb": 320,
+    "estimatedLoadGb": 243,
+    "bestFor": "Quality, Reasoning, Coding",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "quality"
+    ],
+    "speedScore": 12,
+    "qualityScore": 87,
+    "popularityScore": 75,
+    "ollamaCommand": "ollama run llama3.1:405b-instruct-q4_K_M",
+    "notes": "Requires 256GB+ RAM. Best for Mac Studio M3 Ultra and Mac Pro with large memory.",
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct"
+    ]
+  },
+  {
+    "id": "deepseek-r1-671b-q4",
+    "name": "DeepSeek-R1 671B",
+    "family": "DeepSeek",
+    "sizeB": 671,
+    "quantization": "Q4_K_M",
+    "cloud_only": false,
+    "minRamGb": 512,
+    "estimatedLoadGb": 380,
+    "bestFor": "Reasoning, Coding",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "coding",
+      "chat",
+      "moe"
+    ],
+    "speedScore": 12,
+    "qualityScore": 96,
+    "popularityScore": 70,
+    "ollamaCommand": "ollama run deepseek-r1:671b-q4_K_M",
+    "notes": "Requires 400GB+ RAM. Runs on Mac Studio M3 Ultra 512GB only.",
+    "moeActiveB": 37,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    ]
+  },
+  {
+    "id": "qwen3-8b-q4",
+    "name": "Qwen3 8B",
+    "family": "Qwen",
+    "sizeB": 8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 6.5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 76,
+    "qualityScore": 84,
+    "ollamaCommand": "ollama run qwen3:8b-q4_K_M",
+    "notes": "Latest Qwen3 generation with enhanced reasoning.",
+    "popularityScore": 88,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-8B"
+    ]
+  },
+  {
+    "id": "qwen3-8b-q8",
+    "name": "Qwen3 8B (Q8)",
+    "family": "Qwen",
+    "sizeB": 8,
+    "quantization": "Q8_0",
+    "minRamGb": 16,
+    "estimatedLoadGb": 8.1,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 68,
+    "qualityScore": 86,
+    "popularityScore": 88,
+    "ollamaCommand": "ollama run qwen3:8b-q8_0",
+    "notes": "Q8_0 variant of Qwen3 8B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Qwen_Qwen3-8B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-8B"
+    ]
+  },
+  {
+    "id": "qwen3-14b-q4",
+    "name": "Qwen3 14B",
+    "family": "Qwen",
+    "sizeB": 14,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 11,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "mixed"
+    ],
+    "speedScore": 58,
+    "qualityScore": 88,
+    "ollamaCommand": "ollama run qwen3:14b-q4_K_M",
+    "notes": "Mid-range Qwen3 with excellent coding performance.",
+    "popularityScore": 84,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-14B"
+    ]
+  },
+  {
+    "id": "qwen3-30b-q4",
+    "name": "Qwen3 30B",
+    "family": "Qwen",
+    "sizeB": 30,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 22,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "mixed",
+      "moe"
+    ],
+    "speedScore": 75,
+    "qualityScore": 89,
+    "ollamaCommand": "ollama run qwen3:30b",
+    "notes": "Large Qwen3 variant for high-quality outputs.",
+    "popularityScore": 78,
+    "moeActiveB": 3,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-30B-A3B"
+    ]
+  },
+  {
+    "id": "qwen3-30b-a3b-q8",
+    "name": "Qwen3 30B (Q8)",
+    "family": "Qwen",
+    "sizeB": 30,
+    "moeActiveB": 3,
+    "quantization": "Q8_0",
+    "minRamGb": 48,
+    "estimatedLoadGb": 30.3,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "mixed",
+      "moe"
+    ],
+    "speedScore": 67,
+    "qualityScore": 91,
+    "popularityScore": 78,
+    "ollamaCommand": "ollama run qwen3:30b-a3b-q8_0",
+    "notes": "Q8_0 variant of Qwen3 30B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Qwen_Qwen3-30B-A3B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-30B-A3B"
+    ]
+  },
+  {
+    "id": "gemma3-4b-q4",
+    "name": "Gemma 3 4B Instruct",
+    "family": "Gemma",
+    "sizeB": 4,
+    "quantization": "Q4_K_M",
+    "minRamGb": 6,
+    "estimatedLoadGb": 3.5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding"
+    ],
+    "speedScore": 86,
+    "qualityScore": 72,
+    "ollamaCommand": "ollama run gemma3:4b",
+    "notes": "Latest Gemma3 with improved reasoning and efficiency.",
+    "popularityScore": 81,
+    "sources": [
+      "https://huggingface.co/google/gemma-3-4b-it"
+    ]
+  },
+  {
+    "id": "gemma3-4b-q8",
+    "name": "Gemma 3 4B Instruct (Q8)",
+    "family": "Gemma",
+    "sizeB": 4,
+    "quantization": "Q8_0",
+    "minRamGb": 8,
+    "estimatedLoadGb": 3.9,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding"
+    ],
+    "speedScore": 78,
+    "qualityScore": 74,
+    "popularityScore": 81,
+    "ollamaCommand": "ollama run gemma3:4b-it-q8_0",
+    "notes": "Q8_0 variant of Gemma 3 4B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the unsloth/gemma-3-4b-it-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/google/gemma-3-4b-it"
+    ]
+  },
+  {
+    "id": "gemma3-12b-q4",
+    "name": "Gemma 3 12B Instruct",
+    "family": "Gemma",
+    "sizeB": 12,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 9.5,
+    "bestFor": "Chat, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "quality"
+    ],
+    "speedScore": 66,
+    "qualityScore": 85,
+    "ollamaCommand": "ollama run gemma3:12b",
+    "notes": "Mid-range Gemma3 with balanced performance.",
+    "popularityScore": 76,
+    "sources": [
+      "https://huggingface.co/google/gemma-3-12b-it"
+    ]
+  },
+  {
+    "id": "gemma3-27b-q4",
+    "name": "Gemma 3 27B Instruct",
+    "family": "Gemma",
+    "sizeB": 27,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 21,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 48,
+    "qualityScore": 89,
+    "ollamaCommand": "ollama run gemma3:27b",
+    "notes": "Large Gemma3 variant with excellent output quality.",
+    "popularityScore": 71,
+    "sources": [
+      "https://huggingface.co/google/gemma-3-27b-it"
+    ]
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-7b-q4",
+    "name": "DeepSeek-R1 Distill Qwen 7B",
+    "family": "DeepSeek",
+    "sizeB": 7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.5,
+    "bestFor": "Reasoning, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "reasoning",
+      "mixed"
+    ],
+    "speedScore": 79,
+    "qualityScore": 80,
+    "ollamaCommand": "ollama run deepseek-r1:7b",
+    "notes": "Distilled DeepSeek-R1 reasoning model based on Qwen.",
+    "popularityScore": 68,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+    ]
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-7b-q8",
+    "name": "DeepSeek-R1 Distill Qwen 7B (Q8)",
+    "family": "DeepSeek",
+    "sizeB": 7,
+    "quantization": "Q8_0",
+    "minRamGb": 16,
+    "estimatedLoadGb": 7.5,
+    "bestFor": "Reasoning, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "reasoning",
+      "mixed"
+    ],
+    "speedScore": 71,
+    "qualityScore": 82,
+    "popularityScore": 68,
+    "ollamaCommand": "ollama run deepseek-r1:7b-qwen-distill-q8_0",
+    "notes": "Q8_0 variant of DeepSeek-R1 Distill Qwen 7B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+    ]
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-14b-q4",
+    "name": "DeepSeek-R1 Distill Qwen 14B",
+    "family": "DeepSeek",
+    "sizeB": 14,
+    "quantization": "Q4_K_M",
+    "minRamGb": 16,
+    "estimatedLoadGb": 11,
+    "bestFor": "Reasoning, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "quality",
+      "coding"
+    ],
+    "speedScore": 57,
+    "qualityScore": 86,
+    "ollamaCommand": "ollama run deepseek-r1:14b",
+    "notes": "Larger distilled DeepSeek-R1 with enhanced reasoning capabilities.",
+    "popularityScore": 66,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+    ]
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-14b-q8",
+    "name": "DeepSeek-R1 Distill Qwen 14B (Q8)",
+    "family": "DeepSeek",
+    "sizeB": 14,
+    "quantization": "Q8_0",
+    "minRamGb": 24,
+    "estimatedLoadGb": 14.6,
+    "bestFor": "Reasoning, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "quality",
+      "coding"
+    ],
+    "speedScore": 49,
+    "qualityScore": 88,
+    "popularityScore": 66,
+    "ollamaCommand": "ollama run deepseek-r1:14b-qwen-distill-q8_0",
+    "notes": "Q8_0 variant of DeepSeek-R1 Distill Qwen 14B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/DeepSeek-R1-Distill-Qwen-14B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+    ]
+  },
+  {
+    "id": "deepseek-r1-distill-llama-70b-q4",
+    "name": "DeepSeek-R1 Distill Llama 70B",
+    "family": "DeepSeek",
+    "sizeB": 70,
+    "quantization": "Q4_K_M",
+    "minRamGb": 64,
+    "estimatedLoadGb": 42,
+    "bestFor": "Reasoning, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "quality",
+      "coding"
+    ],
+    "speedScore": 25,
+    "qualityScore": 85,
+    "ollamaCommand": "ollama run deepseek-r1:70b",
+    "notes": "Large distilled DeepSeek-R1 for maximum reasoning quality.",
+    "popularityScore": 60,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+    ]
+  },
+  {
+    "id": "gpt-4o-cloud",
+    "name": "GPT-4o",
+    "family": "OpenAI",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "chat"
+    ],
+    "speedScore": 75,
+    "qualityScore": 98,
+    "notes": "Cloud/API only GPT-4 Omni model with multimodal capabilities. Parameter count undisclosed (cloud API).",
+    "popularityScore": 95,
+    "sources": [
+      "https://platform.openai.com/docs/models"
+    ]
+  },
+  {
+    "id": "gpt-4o-mini-cloud",
+    "name": "GPT-4o mini",
+    "family": "OpenAI",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Chat, Speed",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 88,
+    "qualityScore": 82,
+    "notes": "Cloud/API only compact version of GPT-4o with faster responses. Parameter count undisclosed (cloud API).",
+    "popularityScore": 91,
+    "sources": [
+      "https://platform.openai.com/docs/models"
+    ]
+  },
+  {
+    "id": "claude-4-sonnet-cloud",
+    "name": "Claude 4 Sonnet",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "chat"
+    ],
+    "speedScore": 73,
+    "qualityScore": 97,
+    "notes": "Cloud/API only Claude 4 Sonnet with enhanced reasoning capabilities. Parameter count undisclosed (cloud API).",
+    "popularityScore": 89,
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "gemini-2.5-pro-cloud",
+    "name": "Gemini 2.5 Pro",
+    "family": "Google",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Analysis",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "analysis"
+    ],
+    "speedScore": 70,
+    "qualityScore": 96,
+    "notes": "Cloud/API only Gemini 2.5 Pro with advanced reasoning and multimodal capabilities. Parameter count undisclosed (cloud API).",
+    "popularityScore": 87,
+    "sources": [
+      "https://deepmind.google/technologies/gemini/"
+    ]
+  },
+  {
+    "id": "gemini-2.5-flash-cloud",
+    "name": "Gemini 2.5 Flash",
+    "family": "Google",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Speed, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 92,
+    "qualityScore": 85,
+    "notes": "Cloud/API only Gemini 2.5 Flash optimized for speed and efficiency. Parameter count undisclosed (cloud API).",
+    "popularityScore": 84,
+    "sources": [
+      "https://deepmind.google/technologies/gemini/"
+    ]
+  },
+  {
+    "id": "deepseek-v3-cloud",
+    "name": "DeepSeek-V3",
+    "family": "DeepSeek",
+    "sizeB": 671,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "reasoning"
+    ],
+    "speedScore": 65,
+    "qualityScore": 99,
+    "notes": "Cloud/API only DeepSeek-V3 mixture of experts model with exceptional coding capabilities.",
+    "popularityScore": 83,
+    "moeActiveB": 37,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-V3"
+    ]
+  },
+  {
+    "id": "glm-5-cloud",
+    "name": "GLM-5",
+    "family": "Zhipu",
+    "sizeB": 744,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Reasoning, Quality",
+    "publisherTier": "emerging",
+    "tags": [
+      "reasoning",
+      "quality",
+      "chat",
+      "coding"
+    ],
+    "speedScore": 72,
+    "qualityScore": 87,
+    "notes": "Cloud/API only GLM-5, Zhipu AI's latest reasoning model with MoE architecture.",
+    "popularityScore": 75,
+    "moeActiveB": 40,
+    "sources": [
+      "https://huggingface.co/zai-org/GLM-5"
+    ]
+  },
+  {
+    "id": "glm-4-plus-cloud",
+    "name": "GLM-4 Plus",
+    "family": "Zhipu",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Analysis",
+    "publisherTier": "emerging",
+    "tags": [
+      "quality",
+      "analysis",
+      "coding"
+    ],
+    "speedScore": 68,
+    "qualityScore": 92,
+    "notes": "Cloud/API only GLM-4 Plus, Zhipu AI's high-performance general purpose model. Parameter count undisclosed (cloud API).",
+    "popularityScore": 68,
+    "sources": [
+      "https://z.ai/"
+    ]
+  },
+  {
+    "id": "qwen3-235b-a22b-cloud",
+    "name": "Qwen3 235B A22B",
+    "family": "Qwen",
+    "sizeB": 235,
+    "quantization": "Q4_K_M",
+    "cloud_only": false,
+    "minRamGb": 192,
+    "estimatedLoadGb": 130,
+    "bestFor": "Quality, Reasoning",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "reasoning",
+      "coding",
+      "moe"
+    ],
+    "speedScore": 35,
+    "qualityScore": 98,
+    "ollamaCommand": "ollama run qwen3:235b-a22b-q4_K_M",
+    "notes": "Massive MoE model with 22B active parameters. Requires 192GB+ RAM.",
+    "popularityScore": 85,
+    "moeActiveB": 22,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
+    ]
+  },
+  {
+    "id": "mistral-small-3.1-cloud",
+    "name": "Mistral Small 3.1",
+    "family": "Mistral",
+    "sizeB": 24,
+    "quantization": "Q4_K_M",
+    "cloud_only": false,
+    "minRamGb": 24,
+    "estimatedLoadGb": 15,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 50,
+    "qualityScore": 86,
+    "ollamaCommand": "ollama run mistral-small3.1:24b",
+    "notes": "Mistral Small 3.1, latest iteration with improved efficiency. Runs locally on 24GB+ RAM.",
+    "popularityScore": 70,
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    ]
+  },
+  {
+    "id": "mistral-small-3.1-24b-q8",
+    "name": "Mistral Small 3.1 (Q8)",
+    "family": "Mistral",
+    "sizeB": 24,
+    "quantization": "Q8_0",
+    "minRamGb": 36,
+    "estimatedLoadGb": 23.3,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 42,
+    "qualityScore": 88,
+    "popularityScore": 70,
+    "ollamaCommand": "ollama run mistral-small3.1:24b-instruct-2503-q8_0",
+    "notes": "Q8_0 variant of Mistral Small 3.1. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the unsloth/Mistral-Small-3.1-24B-Instruct-2503-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    ]
+  },
+  {
+    "id": "deepseek-v3-0324-cloud",
+    "name": "DeepSeek-V3-0324",
+    "family": "DeepSeek",
+    "sizeB": 671,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "coding",
+      "reasoning",
+      "moe"
+    ],
+    "speedScore": 68,
+    "qualityScore": 99,
+    "notes": "Cloud/API only DeepSeek-V3-0324, March 2025 update with enhanced reasoning capabilities.",
+    "popularityScore": 90,
+    "moeActiveB": 37,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+    ]
+  },
+  {
+    "id": "deepseek-r1-full-cloud",
+    "name": "DeepSeek-R1",
+    "family": "DeepSeek",
+    "sizeB": 671,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Reasoning, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "quality",
+      "coding"
+    ],
+    "speedScore": 58,
+    "qualityScore": 100,
+    "notes": "Cloud/API only full DeepSeek-R1 671B MoE with advanced reasoning capabilities.",
+    "popularityScore": 79,
+    "moeActiveB": 37,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    ]
+  },
+  {
+    "id": "qwen3.5-0.8b-q4",
+    "name": "Qwen3.5 0.8B Instruct",
+    "family": "Qwen",
+    "sizeB": 0.8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 2,
+    "estimatedLoadGb": 0.8,
+    "bestFor": "Chat, Mobile",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "mobile",
+      "translation"
+    ],
+    "speedScore": 96,
+    "qualityScore": 56,
+    "popularityScore": 70,
+    "ollamaCommand": "ollama run qwen3.5:0.8b",
+    "notes": "Ultra-light Qwen3.5 with native multimodal. 262K context. Ideal for mobile and IoT edge devices.",
+    "kvKbPerToken": 12,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-0.8B"
+    ]
+  },
+  {
+    "id": "qwen3.5-2b-q4",
+    "name": "Qwen3.5 2B Instruct",
+    "family": "Qwen",
+    "sizeB": 2,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 1.8,
+    "bestFor": "Chat, Edge tasks",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "mobile",
+      "translation"
+    ],
+    "speedScore": 92,
+    "qualityScore": 70,
+    "popularityScore": 75,
+    "ollamaCommand": "ollama run qwen3.5:2b",
+    "notes": "Fast small Qwen3.5 with native multimodal and 262K context. Great for edge tasks and quick chat.",
+    "kvKbPerToken": 12,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-2B"
+    ]
+  },
+  {
+    "id": "qwen3.5-4b-q4",
+    "name": "Qwen3.5 4B Instruct",
+    "family": "Qwen",
+    "sizeB": 4,
+    "quantization": "Q4_K_M",
+    "minRamGb": 6,
+    "estimatedLoadGb": 3.5,
+    "bestFor": "Coding, Agents, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "agent"
+    ],
+    "speedScore": 85,
+    "qualityScore": 83,
+    "popularityScore": 88,
+    "ollamaCommand": "ollama run qwen3.5:4b",
+    "notes": "88.8 MMLU-Redux beats 20B-class models. Native multimodal, 262K context. Best quality-per-GB ratio in its class.",
+    "kvKbPerToken": 32,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-4B"
+    ]
+  },
+  {
+    "id": "qwen3.5-4b-q8",
+    "name": "Qwen3.5 4B Instruct (Q8)",
+    "family": "Qwen",
+    "sizeB": 4,
+    "kvKbPerToken": 32,
+    "quantization": "Q8_0",
+    "minRamGb": 8,
+    "estimatedLoadGb": 4.3,
+    "bestFor": "Coding, Agents, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "agent"
+    ],
+    "speedScore": 77,
+    "qualityScore": 85,
+    "popularityScore": 88,
+    "ollamaCommand": "ollama run qwen3.5:4b-q8_0",
+    "notes": "Q8_0 variant of Qwen3.5 4B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Qwen_Qwen3.5-4B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-4B"
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-q4",
+    "name": "Qwen3.5 9B Instruct",
+    "family": "Qwen",
+    "sizeB": 9,
+    "quantization": "Q4_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 7,
+    "bestFor": "Quality, Coding, Reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "quality"
+    ],
+    "speedScore": 74,
+    "qualityScore": 89,
+    "popularityScore": 86,
+    "ollamaCommand": "ollama run qwen3.5:9b",
+    "notes": "91.1 MMLU-Redux rivals 30B+ models. Native multimodal, 262K context. Near-frontier quality under 10GB RAM.",
+    "kvKbPerToken": 32,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-9B"
+    ]
+  },
+  {
+    "id": "qwen3.5-35b-a3b-q4",
+    "name": "Qwen3.5 35B-A3B Instruct",
+    "family": "Qwen",
+    "sizeB": 35,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 20,
+    "bestFor": "Reasoning, Coding, Agent scenarios",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 82,
+    "qualityScore": 93,
+    "popularityScore": 90,
+    "ollamaCommand": "ollama run qwen3.5:35b-a3b",
+    "notes": "MoE model (35B total, 3B active). Surpasses Qwen3-235B-A22B. Runs on 24GB Mac/RAM. Better architecture beats bigger parameter counts.",
+    "moeActiveB": 3,
+    "kvKbPerToken": 20,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+    ]
+  },
+  {
+    "id": "qwen3.5-27b-q4",
+    "name": "Qwen3.5 27B Instruct",
+    "family": "Qwen",
+    "sizeB": 27,
+    "quantization": "Q4_K_M",
+    "minRamGb": 24,
+    "estimatedLoadGb": 16,
+    "bestFor": "Chat, Coding, Complex reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning"
+    ],
+    "speedScore": 78,
+    "qualityScore": 91,
+    "popularityScore": 82,
+    "ollamaCommand": "ollama run qwen3.5:27b",
+    "notes": "Mid-size model narrowing the gap between medium and frontier models. Excellent for complex agent scenarios.",
+    "kvKbPerToken": 64,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-27B"
+    ]
+  },
+  {
+    "id": "qwen3.5-27b-q8",
+    "name": "Qwen3.5 27B Instruct (Q8)",
+    "family": "Qwen",
+    "sizeB": 27,
+    "kvKbPerToken": 64,
+    "quantization": "Q8_0",
+    "minRamGb": 48,
+    "estimatedLoadGb": 27.1,
+    "bestFor": "Chat, Coding, Complex reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning"
+    ],
+    "speedScore": 70,
+    "qualityScore": 93,
+    "popularityScore": 82,
+    "ollamaCommand": "ollama run qwen3.5:27b-q8_0",
+    "notes": "Q8_0 variant of Qwen3.5 27B Instruct. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/Qwen_Qwen3.5-27B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-27B"
+    ]
+  },
+  {
+    "id": "qwen3.5-122b-a10b-q4",
+    "name": "Qwen3.5 122B-A10B Instruct",
+    "family": "Qwen",
+    "sizeB": 122,
+    "quantization": "Q4_K_M",
+    "minRamGb": 96,
+    "estimatedLoadGb": 72,
+    "bestFor": "Frontier-level reasoning, Complex tasks",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "frontier"
+    ],
+    "speedScore": 58,
+    "qualityScore": 97,
+    "popularityScore": 75,
+    "ollamaCommand": "ollama run qwen3.5:122b-a10b",
+    "notes": "MoE model (122B total, 10B active). Closes the gap between medium-sized and frontier models. Best for complex agent scenarios. Requires high-end Mac Studio.",
+    "moeActiveB": 10,
+    "kvKbPerToken": 24,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-122B-A10B"
+    ]
+  },
+  {
+    "id": "lfm2-24b-a2b-q4",
+    "name": "LFM2 24B-A2B Instruct",
+    "family": "LFM2",
+    "sizeB": 24,
+    "quantization": "Q4_K_M",
+    "minRamGb": 24,
+    "estimatedLoadGb": 14,
+    "bestFor": "Local AI agents, privacy-first tool calling, MCP workflows",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "agent",
+      "tool-calling",
+      "moe",
+      "privacy"
+    ],
+    "speedScore": 82,
+    "qualityScore": 85,
+    "popularityScore": 80,
+    "ollamaCommand": "ollama run lfm2:24b-a2b",
+    "notes": "LiquidAI flagship hybrid MoE (24B total, 2.3B active per the model card). Powers the LocalCowork open-source agent app over MCP. 112 tok/s on AMD CPU, 293 tok/s on H100, per LiquidAI. Requires 16GB+ unified memory. Best for privacy-sensitive enterprise workflows with zero cloud.",
+    "moeActiveB": 2,
+    "sources": [
+      "https://huggingface.co/LiquidAI/LFM2-24B-A2B"
+    ]
+  },
+  {
+    "id": "lfm2.5-8b-a1b-q4",
+    "name": "LFM2.5 8B-A1B",
+    "family": "LFM2",
+    "sizeB": 8.3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.5,
+    "bestFor": "On-device agents, tool calling, multilingual chat",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "agent",
+      "tool-calling",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 92,
+    "qualityScore": 84,
+    "popularityScore": 72,
+    "ollamaCommand": "ollama run lfm2.5:8b-a1b-q4_K_M",
+    "notes": "LiquidAI hybrid conv+GQA model (8.3B total, 1.5B active per token). IFEval 91.84, MATH500 88.76 per official HF model card. 128K context, native tool calling, 10 languages. ~5 GB at Q4_K_M, runs on most Apple Silicon Macs. Not its strongest area: heavy coding.",
+    "moeActiveB": 1.5,
+    "sources": [
+      "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+    ]
+  },
+  {
+    "id": "granite4.1-3b-q4",
+    "name": "Granite 4.1 3B Instruct",
+    "family": "Granite",
+    "sizeB": 3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 2,
+    "bestFor": "Lightweight chat, classification, edge tasks",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "translation",
+      "tool-calling",
+      "long-context"
+    ],
+    "speedScore": 91,
+    "qualityScore": 65,
+    "popularityScore": 56,
+    "ollamaCommand": "ollama run granite4.1:3b",
+    "notes": "IBM dense 3B (June 2026), Apache 2.0. MMLU 67.02 per IBM model card. 131K context, 12 languages. Safe pick for any Apple Silicon Mac, including 8 GB machines.",
+    "sources": [
+      "https://huggingface.co/ibm-granite/granite-4.1-3b"
+    ]
+  },
+  {
+    "id": "granite4.1-8b-q4",
+    "name": "Granite 4.1 8B Instruct",
+    "family": "Granite",
+    "sizeB": 8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.5,
+    "bestFor": "Enterprise assistant, tool calling, instruction following",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "agent",
+      "tool-calling",
+      "long-context"
+    ],
+    "speedScore": 78,
+    "qualityScore": 80,
+    "popularityScore": 62,
+    "ollamaCommand": "ollama run granite4.1:8b",
+    "notes": "IBM dense 8B (June 2026), Apache 2.0. MMLU 73.84 per IBM model card. 131K context, OpenAI-style tool calling, 12 languages. Safe general-purpose pick for a 16GB Mac.",
+    "sources": [
+      "https://huggingface.co/ibm-granite/granite-4.1-8b"
+    ]
+  },
+  {
+    "id": "qwen3.6-27b-q4",
+    "name": "Qwen3.6 27B",
+    "family": "Qwen",
+    "sizeB": 27,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 18,
+    "bestFor": "Coding, Quality, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "long-context"
+    ],
+    "speedScore": 62,
+    "qualityScore": 94,
+    "popularityScore": 92,
+    "ollamaCommand": "ollama run qwen3.6:27b",
+    "notes": "Apr 2026 flagship dense Qwen. 262K context, extensible to 1M. SWE-Bench Verified 77.2, MMLU-Pro 86.2 per Qwen's model card. Apache 2.0. Strongest dense open-weight coder ModelFit tracks at this size.",
+    "kvKbPerToken": 64,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.6-27B"
+    ]
+  },
+  {
+    "id": "qwen3.8-27b-q4",
+    "name": "Qwen3.8 27B",
+    "family": "Qwen",
+    "sizeB": 27,
+    "quantization": "Q4_K_M",
+    "minRamGb": 24,
+    "estimatedLoadGb": 16.5,
+    "bestFor": "Coding, Agent, Vision, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "agent",
+      "vision",
+      "long-context"
+    ],
+    "speedScore": 62,
+    "qualityScore": 94,
+    "popularityScore": 95,
+    "ollamaCommand": "ollama run qwen3.8:27b",
+    "notes": "Aug 2026 flagship dense Qwen with native vision-language. Apache 2.0. 262K context, extensible to 1M. MTP decoding. Terminal Bench 2.1 73.0, SWE-bench Pro 61.7 per Qwen card.",
+    "kvKbPerToken": 64,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "https://huggingface.co/bartowski/Qwen3.8-27B-GGUF",
+      "https://www.amd.com/en/blogs/2026/run-qwen-3-8-27b-on-amd-ryzen-ai-max-and-radeon-graphics-cards-day-0.html"
+    ]
+  },
+  {
+    "id": "qwen3.8-27b-q8",
+    "name": "Qwen3.8 27B (Q8)",
+    "family": "Qwen",
+    "sizeB": 27,
+    "kvKbPerToken": 64,
+    "quantization": "Q8_0",
+    "minRamGb": 48,
+    "estimatedLoadGb": 27.1,
+    "bestFor": "Coding, Agent, Vision, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "agent",
+      "vision",
+      "long-context"
+    ],
+    "speedScore": 54,
+    "qualityScore": 96,
+    "popularityScore": 95,
+    "ollamaCommand": "ollama run qwen3.8:27b-q8_0",
+    "notes": "Q8_0 variant of Qwen3.8 27B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the unsloth/Qwen3.8-27B-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "https://huggingface.co/bartowski/Qwen3.8-27B-GGUF",
+      "https://www.amd.com/en/blogs/2026/run-qwen-3-8-27b-on-amd-ryzen-ai-max-and-radeon-graphics-cards-day-0.html"
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b-q4",
+    "name": "Qwen3.6 35B-A3B",
+    "family": "Qwen",
+    "sizeB": 35,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 22,
+    "bestFor": "Reasoning, Coding, Agents",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 82,
+    "qualityScore": 95,
+    "popularityScore": 88,
+    "ollamaCommand": "ollama run qwen3.6:35b-a3b",
+    "notes": "Apr 2026 MoE (35B total, 3B active). Successor to Qwen3.5-35B-A3B with better reasoning and tool calling. 262K context. MoE routing keeps decode fast for its size on Apple Silicon.",
+    "moeActiveB": 3,
+    "kvKbPerToken": 20,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+    ]
+  },
+  {
+    "id": "gemma4-31b-q4",
+    "name": "Gemma 4 31B",
+    "family": "Gemma",
+    "sizeB": 31,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 20,
+    "bestFor": "Quality, Coding, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "multimodal"
+    ],
+    "speedScore": 50,
+    "qualityScore": 93,
+    "popularityScore": 84,
+    "ollamaCommand": "ollama run gemma4:31b",
+    "notes": "Apr 2, 2026 release from Google DeepMind. Dense 31B. MMLU-Pro 85.2, GPQA Diamond 84.3. Apache 2.0. Multimodal text+image.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-31B"
+    ]
+  },
+  {
+    "id": "gemma4-31b-q8",
+    "name": "Gemma 4 31B (Q8)",
+    "family": "Gemma",
+    "sizeB": 31,
+    "quantization": "Q8_0",
+    "minRamGb": 48,
+    "estimatedLoadGb": 30.9,
+    "bestFor": "Quality, Coding, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "multimodal"
+    ],
+    "speedScore": 42,
+    "qualityScore": 95,
+    "popularityScore": 84,
+    "ollamaCommand": "ollama run gemma4:31b-it-q8_0",
+    "notes": "Q8_0 variant of Gemma 4 31B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/google_gemma-4-31b-it-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-31B"
+    ]
+  },
+  {
+    "id": "gemma4-26b-a4b-q4",
+    "name": "Gemma 4 26B-A4B",
+    "family": "Gemma",
+    "sizeB": 26,
+    "quantization": "Q4_K_M",
+    "minRamGb": 24,
+    "estimatedLoadGb": 16,
+    "bestFor": "Chat, Coding, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "moe",
+      "multimodal"
+    ],
+    "speedScore": 80,
+    "qualityScore": 91,
+    "popularityScore": 86,
+    "ollamaCommand": "ollama run gemma4:26b",
+    "notes": "Apr 2026 MoE, named 26B-A4B but 25.2B total / 3.8B active per Google's spec table. MMLU-Pro 82.6, GPQA Diamond 82.3. Apache 2.0. Strong throughput on 24GB Mac via MLX.",
+    "moeActiveB": 4,
+    "sources": [
+      "https://huggingface.co/google/gemma-4-26B-A4B"
+    ]
+  },
+  {
+    "id": "gemma4-e4b-q4",
+    "name": "Gemma 4 E4B",
+    "family": "Gemma",
+    "sizeB": 4.5,
+    "quantization": "Q4_K_M",
+    "minRamGb": 6,
+    "estimatedLoadGb": 4,
+    "bestFor": "On-device, Mobile, Chat",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "mobile",
+      "multimodal"
+    ],
+    "speedScore": 92,
+    "qualityScore": 78,
+    "popularityScore": 82,
+    "ollamaCommand": "ollama run gemma4:e4b",
+    "notes": "Apr 2026 on-device Gemma 4 with Per-Layer Embeddings. 4.5B effective params. Runs on 8GB Macs and high-end iPhones. Apache 2.0.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-E4B"
+    ]
+  },
+  {
+    "id": "gemma4-e4b-q8",
+    "name": "Gemma 4 E4B (Q8)",
+    "family": "Gemma",
+    "sizeB": 4.5,
+    "quantization": "Q8_0",
+    "minRamGb": 16,
+    "estimatedLoadGb": 7.5,
+    "bestFor": "On-device, Mobile, Chat",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "mobile",
+      "multimodal"
+    ],
+    "speedScore": 84,
+    "qualityScore": 80,
+    "popularityScore": 82,
+    "ollamaCommand": "ollama run gemma4:e4b-it-q8_0",
+    "notes": "Q8_0 variant of Gemma 4 E4B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/google_gemma-4-e4b-it-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-E4B"
+    ]
+  },
+  {
+    "id": "gemma4-e2b-q4",
+    "name": "Gemma 4 E2B",
+    "family": "Gemma",
+    "sizeB": 2.3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 2.3,
+    "bestFor": "IoT, Mobile, Edge",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "mobile"
+    ],
+    "speedScore": 96,
+    "qualityScore": 68,
+    "popularityScore": 76,
+    "ollamaCommand": "ollama run gemma4:e2b",
+    "notes": "Apr 2026 ultra-light Gemma 4. 2.3B effective params per Google's card. Among the fastest builds in the 2026 batch on Apple Silicon. iPhone-class device target.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-26B-A4B"
+    ]
+  },
+  {
+    "id": "gemma4-e2b-q8",
+    "name": "Gemma 4 E2B (Q8)",
+    "family": "Gemma",
+    "sizeB": 2.3,
+    "quantization": "Q8_0",
+    "minRamGb": 8,
+    "estimatedLoadGb": 4.6,
+    "bestFor": "IoT, Mobile, Edge",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "mobile"
+    ],
+    "speedScore": 88,
+    "qualityScore": 70,
+    "popularityScore": 76,
+    "ollamaCommand": "ollama run gemma4:e2b-it-q8_0",
+    "notes": "Q8_0 variant of Gemma 4 E2B. Heavier build, higher precision than the Q4 default; file size is the real GGUF from the bartowski/google_gemma-4-e2b-it-GGUF Hugging Face repo. Ollama tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-26B-A4B"
+    ]
+  },
+  {
+    "id": "llama4-scout-q4",
+    "name": "Llama 4 Scout",
+    "family": "Llama",
+    "sizeB": 109,
+    "quantization": "Q4_K_M",
+    "minRamGb": 96,
+    "estimatedLoadGb": 67,
+    "bestFor": "Long context, Quality, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "moe",
+      "long-context",
+      "multimodal"
+    ],
+    "speedScore": 55,
+    "qualityScore": 88,
+    "popularityScore": 86,
+    "ollamaCommand": "ollama run llama4:scout",
+    "notes": "Meta Llama 4 Scout: 109B total, 17B active MoE. 10M context. Multimodal. Best run on Mac Studio 96GB+ or 128GB.",
+    "moeActiveB": 17,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    ]
+  },
+  {
+    "id": "llama4-maverick-q4",
+    "name": "Llama 4 Maverick",
+    "family": "Llama",
+    "sizeB": 400,
+    "quantization": "Q4_K_M",
+    "minRamGb": 320,
+    "estimatedLoadGb": 245,
+    "bestFor": "Frontier quality, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "moe",
+      "frontier",
+      "multimodal"
+    ],
+    "speedScore": 30,
+    "qualityScore": 90,
+    "popularityScore": 78,
+    "ollamaCommand": "ollama run llama4:maverick",
+    "notes": "Meta Llama 4 Maverick: 400B total, 17B active MoE. 1M context. Multimodal. Requires Mac Studio M3 Ultra 256GB+ for local.",
+    "moeActiveB": 17,
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+    ]
+  },
+  {
+    "id": "mistral-medium-3.5-cloud",
+    "name": "Mistral Medium 3.5",
+    "family": "Mistral",
+    "sizeB": 128,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Quality, Tool calling",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "quality",
+      "chat",
+      "tool-calling"
+    ],
+    "speedScore": 70,
+    "qualityScore": 95,
+    "popularityScore": 78,
+    "notes": "Apr 30, 2026. 128B dense. SWE-Bench Verified 77.6%. Merges Magistral + Devstral 2 + Pixtral. GGUF available but 96GB+ Mac required. Open weights: mistralai/Mistral-Medium-3.5-128B on Hugging Face (modified MIT).",
+    "sources": [
+      "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+    ]
+  },
+  {
+    "id": "deepseek-v4-flash-cloud",
+    "name": "DeepSeek V4 Flash 0731",
+    "family": "DeepSeek",
+    "sizeB": 284,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Reasoning, Coding, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "coding",
+      "quality",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 68,
+    "qualityScore": 98,
+    "popularityScore": 92,
+    "notes": "Official 0731 release (Jul 31, 2026, MIT), superseding the April preview: same architecture, re-post-trained with far stronger agent skills. 284B total, 13B active MoE, 1M context. Community 2-bit dynamic quants fit 128GB Macs via MLX, llama.cpp and the ds4 engine. No Ollama library tag yet.",
+    "moeActiveB": 13,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "https://api-docs.deepseek.com/updates/"
+    ]
+  },
+  {
+    "id": "deepseek-v4-pro-cloud",
+    "name": "DeepSeek V4 Pro",
+    "family": "DeepSeek",
+    "sizeB": 1600,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Frontier reasoning, Coding",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "coding",
+      "quality",
+      "moe",
+      "frontier"
+    ],
+    "speedScore": 60,
+    "qualityScore": 100,
+    "popularityScore": 86,
+    "notes": "Apr 24, 2026. 1.6T total, 49B active MoE. MIT license. Not realistically runnable on consumer Mac. API $0.87 per 1M output tokens (DeepSeek pricing page, Jul 2026). An August 0813 revision refreshed the API weights; same architecture, same canonical page.",
+    "moeActiveB": 49,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "https://api-docs.deepseek.com/quick_start/pricing"
+    ]
+  },
+  {
+    "id": "deepseek-v4.1-flash-cloud",
+    "name": "DeepSeek V4.1 Flash",
+    "family": "DeepSeek",
+    "sizeB": 552,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Agentic coding, Reasoning, Long context, Vision",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "coding",
+      "agent",
+      "moe",
+      "long-context",
+      "vision",
+      "multimodal",
+      "frontier"
+    ],
+    "speedScore": 70,
+    "qualityScore": 98,
+    "popularityScore": 91,
+    "notes": "Sep 10, 2026 refresh of V4 Flash, MIT. Multimodal (image + text) MoE: 552B backbone plus a 196B sparsely-accessed Engram memory, 8B active on prefill / 16B on decode, 1M context. FP8 weights on Hugging Face (~390k downloads in week 1). No Ollama library tag; far beyond consumer hardware locally.",
+    "moeActiveB": 16,
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "https://api-docs.deepseek.com/updates/"
+    ]
+  },
+  {
+    "id": "kimi-k2.6-cloud",
+    "name": "Kimi K2.6",
+    "family": "Kimi",
+    "sizeB": 1000,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Agentic tasks",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "quality",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 65,
+    "qualityScore": 97,
+    "popularityScore": 80,
+    "notes": "Apr 20, 2026 Moonshot AI release. 1T total, 32B active MoE. SWE-Bench Pro 58.6%. GGUF available (Unsloth UD-Q4: ~250GB). Open weights, Mac Studio 192-512GB territory.",
+    "moeActiveB": 32,
+    "sources": [
+      "https://huggingface.co/moonshotai/Kimi-K2.6"
+    ]
+  },
+  {
+    "id": "glm-5.1-cloud",
+    "name": "GLM-5.1",
+    "family": "Zhipu",
+    "sizeB": 744,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Reasoning, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "coding",
+      "quality",
+      "moe"
+    ],
+    "speedScore": 66,
+    "qualityScore": 95,
+    "popularityScore": 76,
+    "notes": "Apr 7, 2026 from Z.ai. 754B total, 40B active MoE with DeepSeek Sparse Attention. SWE-Bench Pro 58.4. MIT license. Local GGUF available (200-220GB).",
+    "moeActiveB": 40,
+    "sources": [
+      "https://huggingface.co/zai-org/GLM-5.1"
+    ]
+  },
+  {
+    "id": "claude-opus-4.7-cloud",
+    "name": "Claude Opus 4.7",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Quality, Reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "quality",
+      "reasoning",
+      "frontier"
+    ],
+    "speedScore": 72,
+    "qualityScore": 100,
+    "popularityScore": 96,
+    "notes": "Apr 16, 2026 Anthropic flagship. SWE-Bench Verified 87.6%. $5 input / $25 output per 1M tokens. Superseded by Opus 4.8. Cloud only. Parameter count undisclosed (cloud API).",
+    "sources": [
+      "https://www.anthropic.com/pricing",
+      "https://www.vals.ai/benchmarks/swebench"
+    ]
+  },
+  {
+    "id": "claude-opus-4.8-cloud",
+    "name": "Claude Opus 4.8",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Agentic, Reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "quality",
+      "reasoning",
+      "agent",
+      "frontier"
+    ],
+    "speedScore": 73,
+    "qualityScore": 100,
+    "popularityScore": 98,
+    "notes": "Anthropic's current flagship and the most capable model for Claude Code. Best-in-class agentic tool use and long-horizon coding. Parameter count undisclosed (cloud API). Cloud only.",
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "gpt-5.5-cloud",
+    "name": "GPT-5.5",
+    "family": "OpenAI",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Quality, Reasoning, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "quality",
+      "coding",
+      "reasoning",
+      "frontier"
+    ],
+    "speedScore": 70,
+    "qualityScore": 99,
+    "popularityScore": 95,
+    "notes": "Apr 23, 2026 OpenAI flagship. Pro and Instant variants follow May 5. Cloud only. Parameter count undisclosed (cloud API).",
+    "sources": [
+      "https://platform.openai.com/docs/models"
+    ]
+  },
+  {
+    "id": "gemini-3.1-pro-cloud",
+    "name": "Gemini 3.1 Pro",
+    "family": "Google",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Multimodal, Long context, Quality",
+    "publisherTier": "top",
+    "tags": [
+      "quality",
+      "coding",
+      "analysis",
+      "frontier",
+      "long-context"
+    ],
+    "speedScore": 72,
+    "qualityScore": 98,
+    "popularityScore": 90,
+    "notes": "Apr 2026 Google flagship. Strong multimodal, 2M context. Cloud only. Parameter count undisclosed (cloud API).",
+    "sources": [
+      "https://deepmind.google/technologies/gemini/"
+    ]
+  },
+  {
+    "id": "grok-4.3-cloud",
+    "name": "Grok 4.3",
+    "family": "xAI",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Reasoning, Real-time data, Coding",
+    "publisherTier": "top",
+    "tags": [
+      "quality",
+      "coding",
+      "reasoning",
+      "frontier",
+      "long-context"
+    ],
+    "speedScore": 74,
+    "qualityScore": 96,
+    "popularityScore": 82,
+    "notes": "Apr 17, 2026 xAI flagship. Full rollout May 6. 1M context (Apr 30 expansion). Cloud only. Parameter count undisclosed (cloud API).",
+    "sources": [
+      "https://x.ai/grok"
+    ]
+  },
+  {
+    "id": "gemma4-12b-q4",
+    "name": "Gemma 4 12B",
+    "family": "Gemma",
+    "sizeB": 12,
+    "quantization": "Q4_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 8,
+    "bestFor": "Chat, Coding, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "multimodal"
+    ],
+    "speedScore": 70,
+    "qualityScore": 90,
+    "popularityScore": 80,
+    "ollamaCommand": "ollama run gemma4:12b",
+    "notes": "Jun 3, 2026 Google DeepMind release. Unified encoder-free dense 12B, multimodal (text/image/audio), 256K context. MMLU-Pro 77.2, GPQA Diamond 78.8, LiveCodeBench v6 72.0. Beats Gemma 3 27B and runs comfortably on a 16GB Mac. Open weights.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-12b"
+    ]
+  },
+  {
+    "id": "claude-fable-5-cloud",
+    "name": "Claude Fable 5",
+    "family": "Claude",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Agentic, Reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "quality",
+      "reasoning",
+      "agent",
+      "frontier"
+    ],
+    "speedScore": 70,
+    "qualityScore": 100,
+    "popularityScore": 96,
+    "notes": "Jun 9, 2026 Anthropic release: the first publicly available Mythos-class model, a tier above Opus 4.8. Anthropic reports it took the open coding lead on their own benchmarks (precise scores not published in primary-source text). Parameter count undisclosed (cloud API). Cloud only.",
+    "sources": [
+      "https://www.anthropic.com/claude"
+    ]
+  },
+  {
+    "id": "glm-5.2-cloud",
+    "name": "GLM-5.2",
+    "family": "Zhipu",
+    "sizeB": 753,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Reasoning, Agentic",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "reasoning",
+      "quality",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 66,
+    "qualityScore": 95,
+    "popularityScore": 76,
+    "notes": "Jun 13, 2026 coding-first flagship from Z.ai; MIT weights published on HuggingFace in July 2026 (753B total MoE). Works with Claude Code, Cline and OpenCode via the API. Weights are far beyond consumer hardware; use the API or hosted providers.",
+    "openWeights": true,
+    "sources": [
+      "https://huggingface.co/zai-org/GLM-5.2"
+    ]
+  },
+  {
+    "id": "kimi-k2.7-code-cloud",
+    "name": "Kimi K2.7-Code",
+    "family": "Kimi",
+    "sizeB": 1000,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Agentic tasks",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "quality",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 64,
+    "qualityScore": 96,
+    "popularityScore": 80,
+    "notes": "Jun 12, 2026 Moonshot AI release. 1T total / 32B active MoE built on K2.6. Moonshot reports it cuts thinking-token usage ~30%, a self-reported figure. 256K context, Modified MIT license. Open weights, but 1T scale means cloud/API for nearly all users; Ollama exposes a cloud-only tag.",
+    "moeActiveB": 32,
+    "sources": [
+      "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+    ]
+  },
+  {
+    "id": "minimax-m3-cloud",
+    "name": "MiniMax M3",
+    "family": "MiniMax",
+    "sizeB": 428,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Agentic, Long context",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "agent",
+      "moe",
+      "quality",
+      "long-context"
+    ],
+    "speedScore": 66,
+    "qualityScore": 93,
+    "popularityScore": 72,
+    "notes": "Jun 1, 2026 MiniMax release. Native-multimodal MoE (~428B total / ~23B active) with 1M context via MiniMax Sparse Attention. SWE-Bench Pro 59.0%, Terminal-Bench 2.1 66.0%. Open weights; cloud/API for nearly all users.",
+    "moeActiveB": 23,
+    "sources": [
+      "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "https://www.minimax.io/blog/minimax-m3"
+    ]
+  },
+  {
+    "id": "qwen3.7-plus-cloud",
+    "name": "Qwen3.7-Plus",
+    "family": "Qwen",
+    "sizeB": 0,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Multimodal, Agentic, Vision",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "multimodal",
+      "agent",
+      "vision",
+      "long-context"
+    ],
+    "speedScore": 70,
+    "qualityScore": 90,
+    "popularityScore": 78,
+    "notes": "Jun 1, 2026 Alibaba Qwen release. Proprietary multimodal agent model (vision + GUI control + code) on a 1M-token context, via Alibaba Cloud Model Studio / Bailian API. API-only, no open weights. Parameter count undisclosed.",
+    "sources": [
+      "https://qwen.ai"
+    ]
+  },
+  {
+    "id": "nemotron-3-ultra-cloud",
+    "name": "NVIDIA Nemotron 3 Ultra",
+    "family": "Nemotron",
+    "sizeB": 550,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Reasoning, Agentic, Long context",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "agent",
+      "moe",
+      "quality",
+      "long-context"
+    ],
+    "speedScore": 55,
+    "qualityScore": 94,
+    "popularityScore": 66,
+    "notes": "Jun 4, 2026 NVIDIA release. 550B total / 55B active hybrid Mamba-2 + MoE, up to 1M context. SWE-Bench Verified 70.7. Weights are open (OpenMDW-1.1, nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16 on HF; community GGUF is ~188GB even at 2-bit), so self-hosting needs a ~256GB-class multi-node rig. No consumer tier fits it and Ollama's tag is cloud-only, hence listed as cloud.",
+    "moeActiveB": 55,
+    "sources": [
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+    ]
+  },
+  {
+    "id": "mimo-v2-flash-cloud",
+    "name": "Xiaomi MiMo-V2-Flash",
+    "family": "MiMo",
+    "sizeB": 309,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Reasoning, Coding, Agentic tasks",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "coding",
+      "agent",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 66,
+    "qualityScore": 95,
+    "popularityScore": 55,
+    "notes": "Dec 16, 2025 Xiaomi release (MIT, XiaomiMiMo/MiMo-V2-Flash on HF). 309B total / 15B active MoE with hybrid attention and Multi-Token Prediction, 256K context. SWE-Bench Verified 73.4 and AIME 2025 94.1 per Xiaomi's model card. No Ollama build, but community GGUFs exist (bartowski, unsloth), so a ~Q4 build fits a 256GB-class machine via llama.cpp.",
+    "moeActiveB": 15,
+    "sources": [
+      "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+    ]
+  },
+  {
+    "id": "nemotron-cascade-2-30b-a3b-q6",
+    "name": "NVIDIA Nemotron Cascade 2 30B-A3B",
+    "family": "Nemotron",
+    "sizeB": 30,
+    "quantization": "Q6_K",
+    "minRamGb": 36,
+    "estimatedLoadGb": 24,
+    "bestFor": "Reasoning, Math, Agentic tasks",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "reasoning",
+      "agent",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 70,
+    "qualityScore": 90,
+    "popularityScore": 60,
+    "ollamaCommand": "ollama run nemotron-cascade-2:30b",
+    "notes": "NVIDIA release (Mar 19, 2026; Ollama tag added Jun 2026). 30B MoE with 3B active params, 256K context, thinking + instruct modes. Gold-medal performance at the 2025 IMO and IOI (IOI score 439.3) per NVIDIA's model card. The :30b tag ships ~24GB (Q6_K), so it wants a 32GB machine.",
+    "moeActiveB": 3,
+    "sources": [
+      "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
+    ]
+  },
+  {
+    "id": "laguna-xs2-q4",
+    "name": "Poolside Laguna XS.2",
+    "family": "Laguna",
+    "sizeB": 33,
+    "quantization": "Q4_K_M",
+    "minRamGb": 36,
+    "estimatedLoadGb": 23,
+    "bestFor": "Agentic coding, long-horizon software engineering",
+    "publisherTier": "emerging",
+    "tags": [
+      "coding",
+      "agent",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 72,
+    "qualityScore": 88,
+    "popularityScore": 45,
+    "ollamaCommand": "ollama run laguna-xs.2:q4_K_M",
+    "notes": "Poolside AI open-weight (Apache 2.0) coding model, June 2026. 33B MoE / 3B active, 128K context. Per Poolside's model card: SWE-bench Verified 69.9%, SWE-bench Multilingual 57.7%, SWE-bench Pro 46.3%, Terminal-Bench 2.0 35.7%. Coding specialist (not a general chat model).",
+    "moeActiveB": 3,
+    "sources": [
+      "https://huggingface.co/poolside/Laguna-XS.2"
+    ]
+  },
+  {
+    "id": "north-mini-code-1-q4",
+    "name": "Cohere North Mini Code",
+    "family": "North",
+    "sizeB": 30,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 19,
+    "bestFor": "Agentic coding, repo-scale software engineering",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "agent",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 75,
+    "qualityScore": 85,
+    "popularityScore": 45,
+    "ollamaCommand": "ollama run north-mini-code-1.0:q4_K_M",
+    "notes": "Cohere's first developer-focused model (Jun 11, 2026), Apache 2.0. 30B MoE / 3B active, 256K context, up to 64K output. Artificial Analysis Coding Index 33.4 per Cohere. Coding specialist (not a general chat model).",
+    "moeActiveB": 3,
+    "sources": [
+      "https://artificialanalysis.ai/"
+    ]
+  },
+  {
+    "id": "gpt-oss-120b",
+    "name": "GPT-OSS 120B",
+    "family": "GPT-OSS",
+    "sizeB": 117,
+    "moeActiveB": 5.1,
+    "quantization": "MXFP4",
+    "minRamGb": 96,
+    "estimatedLoadGb": 65.4,
+    "bestFor": "Reasoning, Coding, Agents",
+    "publisherTier": "major",
+    "tags": [
+      "reasoning",
+      "coding",
+      "chat",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 60,
+    "qualityScore": 94,
+    "popularityScore": 88,
+    "ollamaCommand": "ollama run gpt-oss:120b",
+    "notes": "OpenAI open-weight MoE (Aug 2025), Apache 2.0: 117B total, 5.1B active per token (per official HF card). Native MXFP4, 65GB via Ollama, strong reasoning and tool use on 96GB+ machines.",
+    "sources": [
+      "https://huggingface.co/openai/gpt-oss-120b"
+    ]
+  },
+  {
+    "id": "gpt-oss-20b",
+    "name": "GPT-OSS 20B",
+    "family": "GPT-OSS",
+    "sizeB": 21,
+    "moeActiveB": 3.6,
+    "quantization": "MXFP4",
+    "minRamGb": 24,
+    "estimatedLoadGb": 13.8,
+    "bestFor": "Chat, Coding, Reasoning",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe"
+    ],
+    "speedScore": 80,
+    "qualityScore": 86,
+    "popularityScore": 85,
+    "ollamaCommand": "ollama run gpt-oss:20b",
+    "notes": "OpenAI open-weight MoE (Aug 2025), Apache 2.0: 21B total, 3.6B active per token (per official HF card). Native MXFP4, 14GB via Ollama, fits 24GB machines with headroom.",
+    "sources": [
+      "https://huggingface.co/openai/gpt-oss-20b"
+    ]
+  },
+  {
+    "id": "qwen3-next-80b-a3b",
+    "name": "Qwen3-Next 80B-A3B",
+    "family": "Qwen",
+    "sizeB": 80,
+    "moeActiveB": 3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 72,
+    "estimatedLoadGb": 50.4,
+    "bestFor": "Chat, Coding, Long Context",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 68,
+    "qualityScore": 94,
+    "popularityScore": 80,
+    "ollamaCommand": "ollama run qwen3-next:80b",
+    "notes": "Qwen hybrid-attention MoE (Sep 2025): 80B total, 3B activated (per official HF card). 50GB via Ollama, the sweet spot for 72-96GB workstations and Macs.",
+    "kvKbPerToken": 24,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b-q8",
+    "name": "Qwen3.6 35B-A3B (Q8)",
+    "family": "Qwen",
+    "sizeB": 35,
+    "quantization": "Q8_0",
+    "minRamGb": 64,
+    "estimatedLoadGb": 38.7,
+    "bestFor": "Reasoning, Coding, Agents",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 74,
+    "qualityScore": 97,
+    "popularityScore": 88,
+    "ollamaCommand": "ollama run qwen3.6:35b-a3b-q8_0",
+    "notes": "Q8_0 higher precision variant of Qwen3.6 35B-A3B, near lossless quality versus the Q4 default. Prefer it with 64GB or more RAM headroom for the larger 38.7GB weight file. Tag registry-verified 200 on the ollama.ai manifest API.",
+    "moeActiveB": 3,
+    "kvKbPerToken": 20,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+    ]
+  },
+  {
+    "id": "qwen3.5-35b-a3b-q8",
+    "name": "Qwen3.5 35B-A3B Instruct (Q8)",
+    "family": "Qwen",
+    "sizeB": 35,
+    "quantization": "Q8_0",
+    "minRamGb": 64,
+    "estimatedLoadGb": 38.7,
+    "bestFor": "Reasoning, Coding, Agent scenarios",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 74,
+    "qualityScore": 95,
+    "popularityScore": 90,
+    "ollamaCommand": "ollama run qwen3.5:35b-a3b-q8_0",
+    "notes": "Q8_0 higher precision variant of Qwen3.5 35B-A3B, near lossless quality versus the Q4 default. Prefer it with 64GB or more RAM headroom for the 38.7GB weight file. Tag registry-verified 200.",
+    "moeActiveB": 3,
+    "kvKbPerToken": 20,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-q8",
+    "name": "Qwen3.5 9B Instruct (Q8)",
+    "family": "Qwen",
+    "sizeB": 9,
+    "quantization": "Q8_0",
+    "minRamGb": 16,
+    "estimatedLoadGb": 10.7,
+    "bestFor": "Quality, Coding, Reasoning",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "quality"
+    ],
+    "speedScore": 66,
+    "qualityScore": 91,
+    "popularityScore": 86,
+    "ollamaCommand": "ollama run qwen3.5:9b-q8_0",
+    "notes": "Q8_0 higher precision variant of Qwen3.5 9B, near lossless quality versus the Q4 default. Prefer it on 16GB or more RAM where the 10.7GB weight file still leaves headroom. Tag registry-verified 200.",
+    "kvKbPerToken": 32,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.5-9B"
+    ]
+  },
+  {
+    "id": "qwen3.6-27b-q8",
+    "name": "Qwen3.6 27B (Q8)",
+    "family": "Qwen",
+    "sizeB": 27,
+    "quantization": "Q8_0",
+    "minRamGb": 48,
+    "estimatedLoadGb": 30,
+    "bestFor": "Coding, Quality, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "long-context"
+    ],
+    "speedScore": 54,
+    "qualityScore": 96,
+    "popularityScore": 92,
+    "ollamaCommand": "ollama run qwen3.6:27b-q8_0",
+    "notes": "Q8_0 higher precision variant of Qwen3.6 27B, near lossless quality versus the Q4 default. Prefer it with 48GB or more RAM headroom for the 30GB weight file. Tag registry-verified 200.",
+    "kvKbPerToken": 64,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.6-27B"
+    ]
+  },
+  {
+    "id": "gemma4-12b-q8",
+    "name": "Gemma 4 12B (Q8)",
+    "family": "Gemma",
+    "sizeB": 12,
+    "quantization": "Q8_0",
+    "minRamGb": 24,
+    "estimatedLoadGb": 12.8,
+    "bestFor": "Chat, Coding, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "multimodal"
+    ],
+    "speedScore": 62,
+    "qualityScore": 92,
+    "popularityScore": 80,
+    "ollamaCommand": "ollama run gemma4:12b-it-q8_0",
+    "notes": "Q8_0 higher precision variant of Gemma 4 12B, near lossless quality versus the Q4 default. Prefer it with 24GB or more RAM headroom for the 12.8GB weight file. Tag registry-verified 200.",
+    "sources": [
+      "https://huggingface.co/google/gemma-4-12b"
+    ]
+  },
+  {
+    "id": "gemma4-26b-a4b-q8",
+    "name": "Gemma 4 26B-A4B (Q8)",
+    "family": "Gemma",
+    "sizeB": 26,
+    "quantization": "Q8_0",
+    "minRamGb": 48,
+    "estimatedLoadGb": 28.1,
+    "bestFor": "Chat, Coding, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "moe",
+      "multimodal"
+    ],
+    "speedScore": 72,
+    "qualityScore": 93,
+    "popularityScore": 86,
+    "ollamaCommand": "ollama run gemma4:26b-a4b-it-q8_0",
+    "notes": "Q8_0 higher precision variant of Gemma 4 26B-A4B, near lossless quality versus the Q4 default. Prefer it with 48GB or more RAM headroom for the 28.1GB weight file. Tag registry-verified 200.",
+    "moeActiveB": 4,
+    "sources": [
+      "https://huggingface.co/google/gemma-4-26B-A4B"
+    ]
+  },
+  {
+    "id": "qwen3-next-80b-a3b-q8",
+    "name": "Qwen3-Next 80B-A3B (Q8)",
+    "family": "Qwen",
+    "sizeB": 80,
+    "moeActiveB": 3,
+    "quantization": "Q8_0",
+    "minRamGb": 128,
+    "estimatedLoadGb": 84.8,
+    "bestFor": "Chat, Coding, Long Context",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 60,
+    "qualityScore": 96,
+    "popularityScore": 80,
+    "ollamaCommand": "ollama run qwen3-next:80b-a3b-instruct-q8_0",
+    "notes": "Q8_0 higher precision variant of Qwen3-Next 80B-A3B, near lossless quality versus the Q4 default. Prefer it on 128GB or more workstations where the 84.8GB weight file still leaves headroom. Tag registry-verified 200.",
+    "kvKbPerToken": 24,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen3-14b-q8",
+    "name": "Qwen3 14B (Q8)",
+    "family": "Qwen",
+    "sizeB": 14,
+    "quantization": "Q8_0",
+    "minRamGb": 24,
+    "estimatedLoadGb": 15.9,
+    "bestFor": "Coding, Quality",
+    "publisherTier": "major",
+    "tags": [
+      "coding",
+      "quality",
+      "mixed"
+    ],
+    "speedScore": 50,
+    "qualityScore": 90,
+    "popularityScore": 84,
+    "ollamaCommand": "ollama run qwen3:14b-q8_0",
+    "notes": "Q8_0 higher precision variant of Qwen3 14B, near lossless quality versus the Q4 default. Prefer it with 24GB or more RAM headroom for the 15.9GB weight file. Tag registry-verified 200.",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-14B"
+    ]
+  },
+  {
+    "id": "llama3.3-70b-q8",
+    "name": "Llama 3.3 70B Instruct (Q8)",
+    "family": "Llama",
+    "sizeB": 70,
+    "quantization": "Q8_0",
+    "minRamGb": 96,
+    "estimatedLoadGb": 75,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "mixed",
+      "coding"
+    ],
+    "speedScore": 18,
+    "qualityScore": 88,
+    "popularityScore": 82,
+    "ollamaCommand": "ollama run llama3.3:70b-instruct-q8_0",
+    "notes": "Q8_0 higher precision variant of Llama 3.3 70B, near lossless quality versus the Q4 default. Prefer it on 128GB or more workstations where the 75GB weight file still leaves headroom. Tag registry-verified 200.",
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+    ]
+  },
+  {
+    "id": "llama3.3-70b-q6",
+    "name": "Llama 3.3 70B Instruct (Q6)",
+    "family": "Llama",
+    "sizeB": 70,
+    "quantization": "Q6_K",
+    "minRamGb": 96,
+    "estimatedLoadGb": 57.9,
+    "bestFor": "Quality, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "quality",
+      "mixed",
+      "coding"
+    ],
+    "speedScore": 22,
+    "qualityScore": 87,
+    "popularityScore": 82,
+    "ollamaCommand": "ollama run llama3.3:70b-instruct-q6_K",
+    "notes": "Q6_K middle ground variant of Llama 3.3 70B, between the Q4 default and the near lossless Q8 sibling. Prefer it on 96GB or more workstations where the 57.9GB weight file balances quality against RAM cost. Tag registry-verified 200.",
+    "sources": [
+      "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+    ]
+  },
+  {
+    "id": "kimi-k3-cloud",
+    "name": "Kimi K3",
+    "family": "Kimi",
+    "sizeB": 2800,
+    "moeActiveB": 104,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Agents, Multimodal, Long context",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "agent",
+      "quality",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 60,
+    "qualityScore": 98,
+    "popularityScore": 90,
+    "notes": "Jul 2026 open-weight multimodal agentic MoE from Moonshot (weights on HuggingFace). Official checkpoint is far beyond any consumer machine; ollama run kimi-k3:cloud streams it from Ollama Cloud rather than running locally.",
+    "sources": [
+      "https://huggingface.co/moonshotai/Kimi-K3"
+    ]
+  },
+  {
+    "id": "laguna-xs-2.1-q4",
+    "name": "Laguna XS 2.1",
+    "family": "Laguna",
+    "sizeB": 33,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 20.3,
+    "bestFor": "Agentic coding, Long-horizon tasks",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "agent",
+      "moe"
+    ],
+    "speedScore": 84,
+    "qualityScore": 90,
+    "popularityScore": 72,
+    "ollamaCommand": "ollama run laguna-xs-2.1:q4_K_M",
+    "moeActiveB": 3,
+    "notes": "Jul 2026 MoE from poolside (33B total, 3B active) built for agentic coding and long-horizon work on local machines. Fast decode for its size thanks to the small active set.",
+    "sources": [
+      "https://huggingface.co/poolside/Laguna-XS-2.1"
+    ]
+  },
+  {
+    "id": "laguna-s-2.1-q4",
+    "name": "Laguna S 2.1",
+    "family": "Laguna",
+    "sizeB": 118,
+    "quantization": "Q4_K_M",
+    "minRamGb": 128,
+    "estimatedLoadGb": 96,
+    "bestFor": "Agentic coding, Long-horizon tasks",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "agent",
+      "moe",
+      "quality"
+    ],
+    "speedScore": 72,
+    "qualityScore": 95,
+    "popularityScore": 70,
+    "ollamaCommand": "ollama run laguna-s-2.1:q4_K_M",
+    "moeActiveB": 8,
+    "notes": "Jul 2026 flagship coding MoE from poolside (118B total, 8B active), aimed at long-horizon agentic work. Q4 load fills a 128GB machine; the largest open coding model with a native Ollama library tag.",
+    "sources": [
+      "https://huggingface.co/poolside/Laguna-S-2.1"
+    ]
+  },
+  {
+    "id": "ornith-9b-q4",
+    "name": "Ornith 1.0 9B",
+    "family": "Ornith",
+    "sizeB": 9,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5.6,
+    "bestFor": "Agentic coding on small machines",
+    "publisherTier": "community",
+    "tags": [
+      "coding",
+      "agent"
+    ],
+    "speedScore": 76,
+    "qualityScore": 88,
+    "popularityScore": 76,
+    "ollamaCommand": "ollama run ornith:9b",
+    "notes": "Jul 2026 self-improving agentic coder from Deep Reinforce (MIT), post-trained on top of Gemma 4 and Qwen 3.5. Publisher reports coding-agent results near 35B-class models; a standout pick for 16GB Macs.",
+    "sources": [
+      "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B"
+    ]
+  },
+  {
+    "id": "ornith-35b-q4",
+    "name": "Ornith 1.0 35B",
+    "family": "Ornith",
+    "sizeB": 35,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 21.2,
+    "bestFor": "Agentic coding",
+    "publisherTier": "community",
+    "tags": [
+      "coding",
+      "agent",
+      "moe"
+    ],
+    "speedScore": 78,
+    "qualityScore": 92,
+    "popularityScore": 72,
+    "ollamaCommand": "ollama run ornith:35b",
+    "notes": "Jul 2026 MoE member of the Ornith agentic-coding family (MIT), sized for single-GPU and 32GB-Mac deployment. Publisher claims state-of-the-art coding-agent results among open models of its size.",
+    "sources": [
+      "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B"
+    ]
+  },
+  {
+    "id": "qwen3.8-flash-next",
+    "name": "Qwen3.8-Flash-Next",
+    "family": "Qwen",
+    "sizeB": 125,
+    "moeActiveB": 6,
+    "quantization": "IQ1_S",
+    "minRamGb": 192,
+    "estimatedLoadGb": 123,
+    "bestFor": "Agentic coding, Reasoning, Multimodal",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "agent",
+      "reasoning",
+      "moe",
+      "frontier",
+      "multimodal",
+      "chat"
+    ],
+    "speedScore": 55,
+    "qualityScore": 92,
+    "popularityScore": 70,
+    "notes": "Qwen4 architecture preview (Aug 26, 2026), open weights under Qwen Community License 1.0. 125B params with 6B activated (512 experts, 10 routed + 1 shared), PLUS a 51B n-gram embedding table and 4B MTP layer - the table dominates GGUF size. Hybrid Gated DeltaNet + Qwen Sparse Attention. Native 262K context, extensible to 1M. Vision encoder. No Ollama tag at release; first GGUF (unsloth UD-IQ1_S) spans 3 shards up to 50GB each (~123GB total), so 256GB-class machines only. Production API version: Qwen3.8-Flash on Qwen Cloud (1M context default).",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+    ]
+  },
+  {
+    "id": "qwen3.8-2.4t-a95b-cloud",
+    "name": "Qwen3.8 2.4T A95B",
+    "family": "Qwen",
+    "sizeB": 2400,
+    "quantization": "API",
+    "cloud_only": true,
+    "openWeights": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Frontier reasoning, Agentic coding",
+    "publisherTier": "top",
+    "tags": [
+      "reasoning",
+      "coding",
+      "agent",
+      "moe",
+      "frontier"
+    ],
+    "speedScore": 55,
+    "qualityScore": 99,
+    "popularityScore": 78,
+    "notes": "Aug 12, 2026 Qwen flagship cloud MoE. 2.4T total parameters, 95B active (512 experts, 10 routed per token), BF16 weights on Hugging Face under the Qwen3.8-Max license (not Apache). Always-on thinking with adjustable reasoning effort. API-only in practice - no consumer hardware comes close.",
+    "moeActiveB": 95,
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "https://qwen.ai/"
+    ]
+  },
+  {
+    "id": "granite4.2-3b-q4",
+    "name": "Granite 4.2 3B",
+    "family": "Granite",
+    "sizeB": 3.7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 4,
+    "estimatedLoadGb": 2.1,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed",
+      "mobile"
+    ],
+    "speedScore": 92,
+    "qualityScore": 70,
+    "popularityScore": 64,
+    "ollamaCommand": "ollama run granite4.2:3b",
+    "notes": "IBM Granite 4.2 small instruct model (Aug 2026), Apache 2.0. Dense 3.7B with 131K context. Ollama pull is about 2 GB; runs on anything. Tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/ibm-granite/granite-4.2-3b"
+    ]
+  },
+  {
+    "id": "granite4.2-8b-q4",
+    "name": "Granite 4.2 8B",
+    "family": "Granite",
+    "sizeB": 8.8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 8,
+    "estimatedLoadGb": 5,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed"
+    ],
+    "speedScore": 84,
+    "qualityScore": 76,
+    "popularityScore": 66,
+    "ollamaCommand": "ollama run granite4.2:8b",
+    "notes": "IBM Granite 4.2 mid-size instruct model (Aug 2026), Apache 2.0. Dense 8.8B with 131K context. Ollama pull about 5 GB, comfortable on 8GB machines. Tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/ibm-granite/granite-4.2-8b"
+    ]
+  },
+  {
+    "id": "granite4.2-30b-q4",
+    "name": "Granite 4.2 30B",
+    "family": "Granite",
+    "sizeB": 29.3,
+    "quantization": "Q4_K_M",
+    "minRamGb": 24,
+    "estimatedLoadGb": 16.5,
+    "bestFor": "Coding, Chat",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "mixed",
+      "quality"
+    ],
+    "speedScore": 62,
+    "qualityScore": 82,
+    "popularityScore": 66,
+    "ollamaCommand": "ollama run granite4.2:30b",
+    "notes": "IBM Granite 4.2 flagship dense model (Aug 2026), Apache 2.0. 29B with 131K context. The :30b pull is listed at 18GB on the Ollama library page, so it wants a 24GB machine. Tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/ibm-granite/granite-4.2-30b",
+      "https://ollama.com/library/granite4.2:30b"
+    ]
+  },
+  {
+    "id": "nemotron-3.5-lightning-30b-q4",
+    "name": "Nemotron 3.5 Lightning 30B-A3B",
+    "family": "Nemotron",
+    "sizeB": 30,
+    "moeActiveB": 3,
+    "kvKbPerToken": 6,
+    "quantization": "Q4_K_M",
+    "minRamGb": 36,
+    "estimatedLoadGb": 23.7,
+    "bestFor": "Agentic, Coding, Long context",
+    "publisherTier": "major",
+    "tags": [
+      "chat",
+      "coding",
+      "agent",
+      "moe",
+      "long-context"
+    ],
+    "speedScore": 90,
+    "qualityScore": 86,
+    "popularityScore": 78,
+    "ollamaCommand": "ollama run nemotron-3.5-lightning:30b",
+    "notes": "NVIDIA hybrid Mamba-MoE (Aug 2026): 30B total with 3B active, 52 layers of which only 6 are full attention (2 KV heads), so KV-cache is a fraction of a dense 30B and context scales to 1M tokens. NVFP4 official build; the Ollama :30b pull is about 24 GB and wants a 36GB machine. Tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+    ]
+  },
+  {
+    "id": "muse-glimmer-30b-q4",
+    "name": "Muse Glimmer 30B",
+    "family": "Muse",
+    "sizeB": 29.8,
+    "quantization": "Q4_K_M",
+    "minRamGb": 32,
+    "estimatedLoadGb": 16.9,
+    "bestFor": "Chat",
+    "publisherTier": "community",
+    "tags": [
+      "chat",
+      "mixed"
+    ],
+    "speedScore": 78,
+    "qualityScore": 68,
+    "popularityScore": 55,
+    "ollamaCommand": "ollama run muse-glimmer:30b",
+    "notes": "Community 30B general chat model (Aug 2026, meta-models org on Hugging Face). Limited public evaluation data; treat quality as unverified. Ollama pull about 17 GB, fits a 24GB machine. Tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+    ]
+  },
+  {
+    "id": "minicpm-v4.5-8b-q4",
+    "name": "MiniCPM-V 4.5 8B",
+    "family": "MiniCPM",
+    "sizeB": 8.7,
+    "quantization": "Q4_K_M",
+    "minRamGb": 12,
+    "estimatedLoadGb": 5.7,
+    "bestFor": "Vision, Multimodal",
+    "publisherTier": "major",
+    "tags": [
+      "vision",
+      "multimodal",
+      "chat"
+    ],
+    "speedScore": 80,
+    "qualityScore": 78,
+    "popularityScore": 74,
+    "ollamaCommand": "ollama run minicpm-v4.5:8b",
+    "notes": "OpenBMB vision-language model (Aug 2025), Apache 2.0: 8.7B with image understanding, a strong local pick for screenshots and document parsing. Ollama pull about 6 GB. Tag registry-verified.",
+    "sources": [
+      "https://huggingface.co/openbmb/MiniCPM-V-4_5"
+    ]
+  },
+  {
+    "id": "glm-5.3-cloud",
+    "name": "GLM-5.3",
+    "family": "Zhipu",
+    "sizeB": 753,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Coding, Reasoning, Agentic",
+    "publisherTier": "top",
+    "tags": [
+      "coding",
+      "reasoning",
+      "quality",
+      "moe",
+      "agent"
+    ],
+    "speedScore": 66,
+    "qualityScore": 95,
+    "popularityScore": 78,
+    "notes": "Z.ai flagship refresh (Aug 25, 2026), 753B total MoE with 1M context, MIT weights on Hugging Face. Successor to GLM-5.2 for Claude Code / OpenCode-style agentic use via API. Far beyond consumer hardware locally.",
+    "openWeights": true,
+    "sources": [
+      "https://huggingface.co/zai-org/GLM-5.3"
+    ]
+  },
+  {
+    "id": "glm-5.3-flash-cloud",
+    "name": "GLM-5.3 Flash",
+    "family": "Zhipu",
+    "sizeB": 321,
+    "quantization": "API",
+    "cloud_only": true,
+    "minRamGb": 0,
+    "estimatedLoadGb": 0,
+    "bestFor": "Chat, Coding",
+    "publisherTier": "top",
+    "tags": [
+      "chat",
+      "coding",
+      "quality",
+      "moe"
+    ],
+    "speedScore": 78,
+    "qualityScore": 88,
+    "popularityScore": 80,
+    "notes": "Z.ai fast tier (Aug 25, 2026), 321B total MoE, MIT weights on Hugging Face. Cheap hosted workhorse; too large for consumer local hardware even at aggressive quants.",
+    "openWeights": true,
+    "sources": [
+      "https://huggingface.co/zai-org/GLM-5.3-Flash"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "local-ai-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "面向中文用户的 Apple Silicon 本地大模型选型雷达",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/validate-links.mjs",
+    "verify": "npm run build && npm run check",
+    "sync": "node scripts/sync-upstream.mjs",
+    "benchmark": "node scripts/benchmark-local.mjs",
+    "serve": "python3 -m http.server 4173 -d dist"
+  }
+}

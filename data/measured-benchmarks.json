@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "profileSlug": "mac-mini-m4-16gb",
+      "modelName": "hermes3:latest",
+      "modelFamily": "llama",
+      "parameterSize": "8.0B",
+      "quantization": "Q4_0",
+      "runtime": "Ollama local API",
+      "contextTokens": 4096,
+      "tokensPerSecond": 18.7,
+      "firstTokenSeconds": 0.05,
+      "runs": 3,
+      "sampleTokensPerSecond": [
+        18.6,
+        18.7,
+        18.8
+      ],
+      "promptTokens": 43,
+      "outputTokens": 128,
+      "collectedAt": "2026-09-27T01:58:40.323Z",
+      "method": "Warm model; deterministic Chinese prompt; median decode speed; Ollama /api/generate."
+    }
+  ]
+}
